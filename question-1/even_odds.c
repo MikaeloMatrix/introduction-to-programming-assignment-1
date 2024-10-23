@@ -19,11 +19,10 @@
 
 int main(void) {
   srand(time(NULL));
-  char *player_name = getenv("USER");
   int no_of_rounds, lucky_number, remainder;
   int total_score = 0;
-  int secret_number = rand();
-  printf("Welcome %s to even - odds your new addiction 😄\n", player_name);
+  int secret_number = rand() % 1000;
+  printf("Welcome to even - odds your new addiction 😄\n");
   printf("How many rounds are you up for: ");
   scanf("%d", &no_of_rounds);
 

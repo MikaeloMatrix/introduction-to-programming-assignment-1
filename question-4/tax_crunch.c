@@ -33,10 +33,8 @@
 
 int main(void) {
   double gross_pay, no_of_dependants, tax_rate, tax_payable, net_pay;
-  char *username = getenv("USERNAME");
-  printf("Welcome %s to tax crunch. Your all in one solution to all tax "
-         "calculations\n",
-         username);
+  printf("Welcome to tax crunch. Your all in one solution to all tax "
+         "calculations\n");
   printf("Please Enter Your Gross Pay: ");
   scanf("%lf", &gross_pay);
   printf("Please Enter Number Of Dependants: ");

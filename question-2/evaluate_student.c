@@ -31,7 +31,7 @@ int main(void) {
   char continue_evaluating_students;
   do {
     printf("\n------------------------------------------------\n\n");
-    printf("Enter Student Admission Number: ");
+    printf("Enter Student Admission Number(4 characters): ");
     scanf("%s", admission_number);
 
     printf("Enter Student Surname: ");
